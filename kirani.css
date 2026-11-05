@@ -1,0 +1,80 @@
+.body {
+    background-color: #858654;
+    font-family: Arial, sans-serif;
+}
+#main_div {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.img_div {
+    width: 250px;
+    height: 280px;
+    text-align: center;
+}
+
+.profile {
+    width: 250px;
+    height: 250px;
+}
+
+.heading {
+    text-align: center;
+    color: #e91e63;
+    font-size: 45px;
+    background-color: #f8bbd0;
+}
+
+#button1{
+    padding: 10px;
+    background: #2330cc;
+    color: #c7eb0d;
+    border: 3px solid green;
+    border-radius: 8px;
+}
+#button2 {
+    padding: 10px;
+    background: #F44336;
+    color: #05ff0f;
+    border: 3px solid green;
+    border-radius: 8px;
+}   
+#button3 {
+    padding: 9px;
+    background: rgb(85 67 105);
+    color: #FF9800;
+    border: 3px solid green;
+    border-radius: 8px;
+}
+#button4 {
+    padding: 10px;
+    background: rgb(7, 18, 227);
+    color: #ef950e;
+    border: 3px solid green;
+    border-radius: 8px;
+}
+
+.first {
+    background-color: pink;
+    color: darkred;
+    border: 3px solid red;
+}
+
+.second {
+    background-color: lightyellow;
+    color: brown;
+    border: 3px solid orange;
+}
+
+.third {
+    background-color: lightblue;
+    color: blue;
+    border: 3px solid purple;
+}
+
+.fourth {
+    background-color: rgb(238, 144, 203);
+    color: darkgreen;
+    border: 3px solid green;
+}
