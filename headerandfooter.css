@@ -1,66 +1,101 @@
 
-
-body {
-    font-family: Arial;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-Header 
+/* Header */
 .header {
-    background-color: lightblue;
-    height: 120px;
+    background-color: #172554;
+    padding: 20px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
-}
-
-.logo img {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-}
-
-.heading {
-    color: rgb(116, 116, 217);
-}
-
-.menu {
-    text-decoration: none;
-    margin: 10px;
-    color: black;
     text-align: center;
 }
 
+.logo h1 {
+    color: white;
+}
+
+.menu button {
+    background-color: #38bdf8;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Main */
+.main {
+    background-color: #e0f2fe;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    min-height: 300px;
+}
 
 .content {
+    width: 50%;
     text-align: center;
-    padding: 50px;
-    min-height: 350px;
 }
 
-.content img {
-    width: 200px;
-    height: 150px;
-    margin: 20px;
+.content h1 {
+    color: #172554;
+    margin-bottom: 15px;
 }
 
+.content p {
+    font-size: 18px;
+    line-height: 1.5;
+}
 
-.footer {
-    background-color: darkblue;
+.learn {
+    background-color: #172554;
     color: white;
-    height: 120px;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.image img {
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #172554;
+    color: white;
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    padding: 30px;
 }
 
-.footer-img img {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+.footer h2 {
+    color: #38bdf8;
+    margin-bottom: 15px;
 }
 
-.footer-text {
-    text-align:center;
-    font-size: 20px;
-    text-decoration: underline;
+.footer p {
+    margin: 10px 0;
+}
+
+.footer-about img {
+    width: 120px;
+    height: 80px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.copyright {
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
