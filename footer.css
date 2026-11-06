@@ -1,0 +1,53 @@
+
+footer {
+    background-color: #292a2e;
+    color: rgb(255, 254, 254);
+    padding: 50px;
+}
+
+.menu {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+}
+
+.menu h1 {
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    color: yellow;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin: 4px;
+}
+
+.social {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 20px;
+
+}
